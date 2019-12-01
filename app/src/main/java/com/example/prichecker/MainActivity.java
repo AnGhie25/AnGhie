@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "onCreate: Started.");
         ListView mListView = (ListView) findViewById(R.id.listView);
 
+        //This is my code
+
 
         Person john = new Person("John","12-20-1998", "Male");
         Person andie1 = new Person("Andie","12-20-1996", "Female");
